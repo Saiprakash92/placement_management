@@ -2,9 +2,9 @@ import axios from "axios";
 import { toast } from "react-toastify";
 
 import { removeSession } from "../utils/helper";
+const baseURL="https://placement-management-lake.vercel.app/"
 
-
- const baseURL = "http://localhost:8085/";
+//  const baseURL = "http://localhost:8085/";
 
 const axiosClient = axios.create({
   baseURL,
